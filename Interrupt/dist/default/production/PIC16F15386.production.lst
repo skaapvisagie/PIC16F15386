@@ -1,7 +1,7 @@
 
 
 Microchip Technology PIC LITE Macro Assembler V2.00 build -1524193055 
-                                                                                               Wed Apr 10 12:22:22 2019
+                                                                                               Thu Apr 25 08:44:26 2019
 
 Microchip Technology Omniscient Code Generator v2.00 (Free mode) build 20180527130849
      1  0000                     
@@ -4201,7 +4201,7 @@ Microchip Technology Omniscient Code Generator v2.00 (Free mode) build 201805271
   4133                           __CFG_LVP$ON equ 0x0
   4134  0000                     global __CFG_CP$OFF
   4135                           __CFG_CP$OFF equ 0x0
-  4136  0000                     	file	"C:\Users\VEF55~1.SAN\AppData\Local\Temp\sbu4."
+  4136  0000                     	file	"C:\Users\VEF55~1.SAN\AppData\Local\Temp\s5mg."
   4137                           	line	#
   4138                           psect cinit,class=CODE,delta=2
   4139                           global start_initialization
@@ -5312,14 +5312,14 @@ Microchip Technology Omniscient Code Generator v2.00 (Free mode) build 201805271
   5221  006D  133F               	line	126
   5222                           	
   5223                           l844:	
-  5224  006E                     ;mcc_generated_files/pin_manager.c: 126:     IOCANbits.IOCAN6 = 0;
-  5225                           	bcf	(7998)^01F00h,6	;volatile
-  5226  006E  133E               	line	128
+  5224  006E                     ;mcc_generated_files/pin_manager.c: 126:     IOCANbits.IOCAN6 = 1;
+  5225                           	bsf	(7998)^01F00h,6	;volatile
+  5226  006E  173E               	line	128
   5227                           	
   5228                           l846:	
-  5229  006F                     ;mcc_generated_files/pin_manager.c: 128:     IOCAPbits.IOCAP6 = 1;
-  5230                           	bsf	(7997)^01F00h,6	;volatile
-  5231  006F  173D               	line	133
+  5229  006F                     ;mcc_generated_files/pin_manager.c: 128:     IOCAPbits.IOCAP6 = 0;
+  5230                           	bcf	(7997)^01F00h,6	;volatile
+  5231  006F  133D               	line	133
   5232                           	
   5233                           l848:	
   5234  0070                     ;mcc_generated_files/pin_manager.c: 133:     IOCAF6_SetInterruptHandler(IOCAF6_DefaultIn
@@ -6807,7 +6807,7 @@ SFR63                0      0       0      64        0.0%
 
 
 Microchip Technology PIC Macro Assembler V2.00 build -1524193055 
-Symbol Table                                                                                   Wed Apr 10 12:22:22 2019
+Symbol Table                                                                                   Thu Apr 25 08:44:26 2019
 
                                __CFG_CP$OFF 0000                                          l60 00D6  
                                         l54 0098                                          l57 00BC  

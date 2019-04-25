@@ -1446,11 +1446,11 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;mcc_generated_files/pin_manager.c: 124:     IOCAFbits.IOCAF6 = 0;
 [e = . . _IOCAFbits 0 6 -> -> 0 `i `uc ]
 "126
-[; ;mcc_generated_files/pin_manager.c: 126:     IOCANbits.IOCAN6 = 0;
-[e = . . _IOCANbits 0 6 -> -> 0 `i `uc ]
+[; ;mcc_generated_files/pin_manager.c: 126:     IOCANbits.IOCAN6 = 1;
+[e = . . _IOCANbits 0 6 -> -> 1 `i `uc ]
 "128
-[; ;mcc_generated_files/pin_manager.c: 128:     IOCAPbits.IOCAP6 = 1;
-[e = . . _IOCAPbits 0 6 -> -> 1 `i `uc ]
+[; ;mcc_generated_files/pin_manager.c: 128:     IOCAPbits.IOCAP6 = 0;
+[e = . . _IOCAPbits 0 6 -> -> 0 `i `uc ]
 "133
 [; ;mcc_generated_files/pin_manager.c: 133:     IOCAF6_SetInterruptHandler(IOCAF6_DefaultInterruptHandler);
 [e ( _IOCAF6_SetInterruptHandler (1 &U _IOCAF6_DefaultInterruptHandler ]

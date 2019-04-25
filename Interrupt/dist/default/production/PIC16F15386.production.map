@@ -5,7 +5,7 @@ Linker command line:
 -W-3 --edf=C:\Program Files (x86)\Microchip\xc8\v2.00\pic\dat\en_msgs.txt \
   -cs -h+dist/default/production\PIC16F15386.production.sym \
   --cmf=dist/default/production\PIC16F15386.production.cmf -z -Q16F15386 \
-  -oC:\Users\VEF55~1.SAN\AppData\Local\Temp\sbu4.2 --defsym=__MPLAB_BUILD=1 \
+  -oC:\Users\VEF55~1.SAN\AppData\Local\Temp\s5mg.2 --defsym=__MPLAB_BUILD=1 \
   -Mdist/default/production/PIC16F15386.production.map -E1 -ver=XC8 \
   --acfsm=1493 -ASTACK=02000h-027efh -pstack=STACK -ACODE=00h-07FFhx8 \
   -ASTRCODE=00h-03FFFh -ASTRING=00h-0FFhx64 -ACONST=00h-0FFhx64 \
@@ -46,7 +46,7 @@ Linker command line:
   -pfunctab=ENTRY -ACONFIG=08007h-0800Bh -pconfig=CONFIG -DCONFIG=2 \
   -AIDLOC=08000h-08003h -pidloc=IDLOC -DIDLOC=2 -DCODE=2 -DSTRCODE=2 \
   -DSTRING=2 -DCONST=2 -DENTRY=2 -k \
-  C:\Users\VEF55~1.SAN\AppData\Local\Temp\sbu4.o \
+  C:\Users\VEF55~1.SAN\AppData\Local\Temp\s5mg.o \
   dist/default/production\PIC16F15386.production.o 
 
 Object code version is 3.11
@@ -56,7 +56,7 @@ Machine type is 16F15386
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\VEF55~1.SAN\AppData\Local\Temp\sbu4.o
+C:\Users\VEF55~1.SAN\AppData\Local\Temp\s5mg.o
                 end_init                             26       26        2        8       0
                 reset_vec                             0        0        2        0       0
                 config                             8007     8007        5    1000E       0

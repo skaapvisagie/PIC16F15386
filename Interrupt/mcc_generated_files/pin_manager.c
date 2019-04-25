@@ -123,9 +123,9 @@ void PIN_MANAGER_Initialize(void)
     //interrupt on change for group IOCAF - flag
     IOCAFbits.IOCAF6 = 0;
     //interrupt on change for group IOCAN - negative
-    IOCANbits.IOCAN6 = 0;
+    IOCANbits.IOCAN6 = 1;
     //interrupt on change for group IOCAP - positive
-    IOCAPbits.IOCAP6 = 1;
+    IOCAPbits.IOCAP6 = 0;
 
 
 

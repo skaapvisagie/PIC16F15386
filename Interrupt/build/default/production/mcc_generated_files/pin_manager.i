@@ -13894,9 +13894,9 @@ void PIN_MANAGER_Initialize(void)
 
     IOCAFbits.IOCAF6 = 0;
 
-    IOCANbits.IOCAN6 = 0;
+    IOCANbits.IOCAN6 = 1;
 
-    IOCAPbits.IOCAP6 = 1;
+    IOCAPbits.IOCAP6 = 0;
 
 
 
